@@ -30,14 +30,12 @@ a{
 	font-weight: 400;
 }
 .first-screen{
-	/* margin-top: 30px; */
 	height: 908px;
 	background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%)
 }
 .wrapper{
 	width: 1200px;
-	margin: 0 auto;
-	height: 100%;
+	margin: 0 auto
 }
 
 .header{
@@ -45,7 +43,6 @@ a{
 	justify-content: space-between;
 	align-items: center;
 	height: 60px;
-	/* opacity: 0;; */
 }
 
 .logo{
@@ -53,7 +50,6 @@ a{
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
-	/* width: 185px; */
 	height: 60px;
 	margin-top: 60px;
 
@@ -84,7 +80,6 @@ nav{
 	margin-top: 60px;
 }
 .header-nav>li>a{
-	/* letter-spacing: 0.02em; */
 	font-size: 15px;
 	color: white;
 	font-family: Arial;
@@ -121,7 +116,6 @@ nav{
 	color: #fff;
 	font-weight: 400;
 	line-height: 130%;
-	/* letter-spacing: 0.0em; */
 }
 
 .subtitle{
@@ -134,7 +128,6 @@ nav{
 .button{
 	color: #292929;
 	font-size: 17px;
-	width: 207px;
 	height: 52px;
 	border-radius: 100px;
 	letter-spacing: 0.06em;
@@ -150,9 +143,12 @@ nav{
 	margin-top: 70px;
 }
 
-
+.first-screen--button{
+	width: 210px;
+}
 .about{
 	height: 588px;
+	display: flex;
 }
 
 .about-content{
@@ -179,4 +175,83 @@ nav{
 	width: 300px;
 	height: 100%;
 	margin: 0;
+}
+.about__subtitle{
+	font-family: Arial;
+	letter-spacing: 0;
+}
+.pets{
+	height: 877px;
+	background-color: #F6F6F6;
+	padding-top:80px ;
+}
+.pets-content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 697px;
+	justify-content: space-between;
+}
+.pets-title{
+	width: 400px;
+	text-align: center;
+}
+.pets--button{
+	width: 260px;
+}
+
+.slider{
+	height: 435px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+.slider-button{
+	width: 52px;
+	height: 52px;
+	border-radius: 100px;
+	border: 2px solid #F1CDB3;
+	background-color: transparent;
+	font-size: px;
+}
+.slides{
+	display: flex;
+	justify-content: space-between;
+	width: 990px;
+	height: 100%;
+}
+
+.help-list__item{
+	display: flex;
+	flex-direction: column;
+	height: 113px;
+}
+
+.card{
+	background-color: #FAFAFA;
+	display: flex;
+	flex-direction: column;
+	/* height: 270px; */
+	justify-content: flex-start;
+	gap: 30px;
+	align-items: center;
+	border-radius: 9px;
+}
+
+.button--pets{
+	width: 187px;
+	background-color: transparent;
+	border: 2px solid #F1CDB3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Georgia;
+	color: #292929;
+}
+.card__title{
+	font-family: Georgia;
+	color: #545454;
+	font-size: 20px;
+	letter-spacing: 0.06em;
 }
