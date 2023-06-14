@@ -4,10 +4,13 @@
 		url(./fonts/georgia.ttf);
 }
 
+
+
 * {
 	margin: 0;
 	box-sizing: border-box;
 	padding: 0;
+	user-select: none;
 }
 
 button {
@@ -41,7 +44,7 @@ a {
 }
 
 .wrapper {
-	width: 1200px;
+	max-width: 1200px;
 	margin: 0 auto
 }
 
