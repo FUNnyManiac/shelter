@@ -10,6 +10,10 @@
 	padding: 0;
 }
 
+button {
+	cursor: pointer;
+}
+
 ul {
 	list-style-type: none;
 	display: flex;
@@ -421,13 +425,10 @@ footer {
 .footer_column>a {
 	color: #F1CDB3;
 	display: flex;
-	/* height: 32px; */
 	align-items: center;
 	font-family: Georgia;
 	font-size: 20px;
 	font-weight: 400;
-	/* line-height: 23px; */
-	letter-spacing: 0.06em;
 }
 
 .mail::before {
@@ -442,8 +443,9 @@ footer {
 
 .location::before {
 	content: url(./assets/icon-marker.svg);
-	margin-right: px;
+	margin-right: 20px;
 }
+
 
 .footer-title {
 	font-family: Georgia;
@@ -452,4 +454,118 @@ footer {
 	line-height: 45.5px;
 	letter-spacing: 0.06em;
 	color: #fff;
+}
+
+/* PAGE 2 PAGE 2  PAGE 2 PAGE 2 PAGE 2 PAGE 2 PAGE 2*/
+.header-pets {
+	height: 120px;
+}
+
+.logo__title--dark {
+	color: #545454;
+}
+
+.logo__subtitle--dark {
+	color: #292929
+}
+
+.header-nav--dark>li>a {
+	color: #545454
+}
+
+main {
+	height: 1342px;
+	background-color: #F6F6F6;
+	padding-top: 80px;
+}
+
+.main-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	height: 1162px;
+	justify-content: space-between;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	height: 930px;
+}
+
+.card-item {
+	display: flex;
+	flex-direction: column;
+	width: 270px;
+	height: 435px;
+	justify-content: space-between;
+	align-items: flex-start;
+	background-color: #FAFAFA;
+	border-radius: 9px;
+	margin: 15px 0;
+}
+
+.card-title {
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 0.1em;
+	line-height: 22.72px;
+	color: #545454;
+}
+
+.card-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 405px;
+}
+
+.card-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 187px;
+	height: 52px;
+	background-color: transparent;
+	border: 2px solid #F1CDB3;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	width: 340px;
+	height: 52px;
+}
+
+.navigation-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	width: 52px;
+	height: 52px;
+	letter-spacing: 0.07em;
+	font-weight: 400;
+	outline: none;
+	background-color: transparent;
+	border: none;
+	user-select: none;
+	font-family: Georgia;
+	font-size: 20px;
+}
+
+.navigation-button--inactive {
+	border: 2px solid #CDCDCD;
+	color: #CDCDCD;
+}
+
+.navigation-button--current {
+	background-color: #F1CDB3;
+}
+
+.navigation-button--active {
+	border: 2px solid #F1CDB3;
 }
